@@ -1,6 +1,8 @@
+import './config/env.js';
 import express from "express";
 import router from "./routes/index.js";
-import { errorHandler } from "./middleware/errorMiddleware.js";
+// import { errorHandler } from "./middleware/errorMiddleware.js";
+import { errorHandler } from "./middleware/errorHandler.js";
 
 const app = express();
 
